@@ -6,3 +6,8 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+# Show the "Code" button (show/hide all code, view source) on posts only
+format:
+  html:
+    code-tools: true
