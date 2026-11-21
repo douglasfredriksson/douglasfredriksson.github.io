@@ -12,8 +12,7 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/douglasfredriksson
-      - icon: linkedin
-        href: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+      
 
 format:
   html:
