@@ -1,19 +1,7 @@
 ---
 title: "About"
-image: profile.jpg
-about:
-  template: jolla
-  links:
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
-
 ---
 
-About this blog
+I'm Douglas Fredriksson, a third-year bachelor's student in cognitive neuroscience at the University of Skövde, Sweden. I'm interested in how people perceive, trust and work with robots and automated systems, within human–robot interaction and human factors.
+
+On this site I share statistical analyses and other projects, mostly using open data.
