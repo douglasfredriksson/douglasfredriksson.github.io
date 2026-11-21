@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Douglas Fredriksson"
+  description: "Statistical analyses in human factors, human–robot interaction and cognitive science"
+  site-url: https://douglasfredriksson.github.io
+  open-graph: true
+  twitter-card: true
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/douglasfredriksson
+      - icon: linkedin
+        href: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-tools: true
+
+execute:
+  freeze: auto
+
