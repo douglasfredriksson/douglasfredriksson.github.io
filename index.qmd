@@ -1,5 +1,6 @@
 ---
-title: "Douglas Fredriksson"
+title: "Projects"
+
 listing:
   contents: posts
   feed: true
