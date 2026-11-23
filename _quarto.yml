@@ -10,6 +10,7 @@ website:
   navbar:
     right:
       - about.qmd
+      - notes.qmd
       - icon: github
         href: https://github.com/douglasfredriksson
       
