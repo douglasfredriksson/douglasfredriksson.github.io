@@ -1,5 +1,6 @@
 ---
 title: "About"
+draft: true
 ---
 
 I'm Douglas Fredriksson, a third-year bachelor's student in cognitive neuroscience at the University of Skövde, Sweden. I'm interested in how people perceive, trust and work with robots and automated systems, within human–robot interaction and human factors.

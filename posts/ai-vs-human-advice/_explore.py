@@ -17,4 +17,5 @@ df.groupby("participant_id").size().describe()
 df.groupby(["task_name", "geographic_region", "perceived_accuracy"])["participant_id"].nunique()
 
 # %% 6. Between or within subjects?
+# Result: all 1125 participants saw exactly 1 advice source -> between-subjects (matches paper)
 df.groupby("participant_id")["advice_source"].nunique().value_counts()

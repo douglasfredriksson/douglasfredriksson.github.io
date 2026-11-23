@@ -1,0 +1,31 @@
+---
+title: "Notes"
+description: "Short explanations of research-method, statistics and Python concepts, written as I learn them."
+draft: true
+---
+
+Notes on concepts I've had to look up while working on my projects. Written for myself first, so they're short.
+
+## Research design
+
+### Between-subjects vs within-subjects
+
+Between-subjects: each person only does one condition, so you end up comparing different groups of people. Within-subjects: everyone does all conditions, so each person gets compared with themselves.
+
+Within needs fewer participants, but people can get tired, learn the task or figure out what's being tested. Between avoids that, but differences between people add noise, so you need more of them.
+
+In the Human–AI Interactions Dataset everyone got either "AI" advice or "human" advice, never both. Makes sense, since the advice was identical and people would probably notice that only the label changed.
+
+### Manipulation check
+
+A question that checks whether the manipulation actually worked on people. In the same dataset, participants were told the advice was 65, 80 or 95 % accurate, and afterwards they were asked how accurate they thought it was.
+
+## Python (pandas)
+
+### `.nunique()` vs `.count()`
+
+`.count()` counts values, `.nunique()` counts different values. A participant with 32 rows is 32 with `.count()` but 1 with `.nunique()`. So if I want to count people and not rows, `.nunique()` is the one.
+
+### `groupby` drops missing values without telling you
+
+`df.groupby(...)` skips rows where the grouping column is empty (NaN), and there's no warning. I noticed because my groups added up to 1,117 people when there should be 1,125. `dropna=False` keeps them.
