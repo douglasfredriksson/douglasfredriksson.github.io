@@ -2,4 +2,4 @@
 /_site/
 **/*.quarto_ipynb
 .DS_Store
-__pycache__/
+__pycache__/.vscode/

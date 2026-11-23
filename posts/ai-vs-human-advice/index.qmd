@@ -1,0 +1,6 @@
+---
+title: "Do people trust AI advice more than human advice?"
+description: "Draft"
+date: 2026-11-22
+draft: true
+---
